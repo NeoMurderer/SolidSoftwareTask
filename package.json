@@ -1,13 +1,16 @@
 {
-  "name": "solidsoftwaretask",
+  "name": "solid-software-task",
   "main": "expo-router/entry",
+  "author": {
+    "name": "Oleh Nesterov"
+  },
   "version": "1.0.0",
   "scripts": {
     "start": "expo start",
-    "reset-project": "node ./scripts/reset-project.js",
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
+    "export": "expo export --platform web",
     "test": "jest --watchAll",
     "lint": "expo lint"
   },
